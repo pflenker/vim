@@ -4,3 +4,6 @@
 [submodule "bundle/vim-sensible"]
 	path = bundle/vim-sensible
 	url = git://github.com/tpope/vim-sensible.git
+[submodule "bundle/groovyindent-unix"]
+	path = bundle/groovyindent-unix
+	url = git@github.com:vim-scripts/groovyindent-unix.git
