@@ -10,3 +10,9 @@ set shiftwidth=2  " When indenting, use x spaces width
 set expandtab		  " On pressing tab, insert spaces
 syntax on
 colorscheme minimalist
+ino " ""<left>
+ino ' ''<left>
+ino ( ()<left>
+ino [ []<left>
+ino { {}<left>
+ino {<CR> {<CR>}<ESC>O
