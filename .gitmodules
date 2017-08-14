@@ -7,3 +7,6 @@
 [submodule "bundle/groovyindent-unix"]
 	path = bundle/groovyindent-unix
 	url = git@github.com:vim-scripts/groovyindent-unix.git
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = git@github.com:jiangmiao/auto-pairs.git
