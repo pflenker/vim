@@ -16,3 +16,5 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 set hidden
 set smartcase
+autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufWritePre * :normal migg=G`i
