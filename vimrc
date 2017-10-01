@@ -24,17 +24,17 @@ set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 1
 
 let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_loc_list_height =3
 let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
 " execute eslint with --fix flag
-let g:syntastic_javascript_eslint_args = ['--fix']
+" let g:syntastic_javascript_eslint_args = ['--fix']
 " enable autoread to reload any files from files when checktime is called and
 " the file is changed
-set autoread
+" set autoread
 " add an autocmd after vim started to execute checktime for *.js files on write
-au VimEnter *.js au BufWritePost *.js checktime
-au VimEnter *.jsx au BufWritePost *.jsx checktime
+" au VimEnter *.js au BufWritePost *.js checktime
+" au VimEnter *.jsx au BufWritePost *.jsx checktime
